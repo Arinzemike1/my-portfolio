@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand{
+	color: #fff !important;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 30px !important;
+}
+.navbar-brand span{
+	color: #ea213b;
+}
+.overall{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(http://backgroundcheckall.com/wp-content/uploads/2017/12/webdesign-background-10.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+	background-repeat:no-repeat;
+}
+.navbar-toggler{
+	border: none !important;
+	background-color: #000 !important;
+}
+.nav-link{
+	color: #fff !important;
+	font-weight: 600;
+	letter-spacing: 1.25px;
+	margin-right: 50px;
+	font-size: 16px;
+}
+.nav-link:hover{
+	border-bottom: 3px solid #ea213b;
+}
+.active-link{
+	border-bottom: 3px solid #ea213b;
+}
+.home-text{
+	text-align: center;
+	padding-top: 120px;
+}
+.home-text img{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+.name{
+	font-size: 60px;
+	color: #fff;
+	font-weight: bold;
+}
+@media screen and (max-width: 768px){
+	.overall{
+		height: 100vh;
+	}
+	.nav-link{
+		text-align: center;
+		border-bottom: 1px dotted #ea213b;
+	}
+	.nav-link:hover{
+		color: #ea213b;
+	}
+	.active-link{
+		border-bottom: 1px dotted #ea213b;
+	}
+	.home-text{
+		text-align: center;
+	}
+	.name{
+		font-size: 30px;
+	}
+	.desc{
+		font-size: 15px;
+	}
+	#social-media{
+		padding: 30px !important;
+	}
+	#social-media h3{
+		font-size: 30px !important;
+	}
+	.skills-bar{
+		margin-top: 50px;
+	}
+	.profile > p{
+		padding-bottom: 0 !important;
+	}
+	.contact-btn{
+		text-align: center;
+	}
+}
+.home-text p span{
+	color: #ea213b;
+}
+.desc{
+	font-size: 40px;
+	color: #fff;
+	padding-bottom: 30px;
+	font-family: casteller;
+}
+.home-text a{
+	color: white;
+	background: #ea213b;
+	padding: 10px 50px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+.home-text a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #ca2f2f;		
+}
+#social-media{
+	text-align: center;
+	padding: 100px;
+	background: #fafafa;
+	/*background-image: url(https://cdn.hipwallpaper.com/i/41/91/oIeJp0.jpg);
+	filter: brightness(120%);
+	background-size: cover;*/
+}
+#social-media h3{
+	color: #555;
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.fab{
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.fab:hover{
+  opacity: 0.6;
+}
+.fa-instagram{
+   background: #e4405f;
+   color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: purple;
+  color: white;
+}
+.fa-quora{
+  background: #b92b27;
+  color: white;
+}
+#about{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+#about h1{
+	text-align: center;
+	color: #ea213b;
+	font-family: Broadway;
+}
+#about h1::after{
+	content: '';
+	display: block;
+	background: #ea213b;
+	height: 2px;
+	width: 150px;
+	margin: 20px auto 5px;
+	margin-bottom: 50px;
+}
+#about .container{
+	margin: 50px auto;
+}
+.about-col{
+	margin-top: 50px;
+}
+.profile{
+	padding: 70px 10px 20px 10px;
+	background-color: #ea213b;
+}
+.profile:hover{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.profile > p{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.user{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	top: -60px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 7px solid #fff;
+}
+.skills-bar{
+	margin-bottom: 15px;
+}
+.skills-bar > p{
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.progress{
+	border-radius: 15px;
+}
+.progress-bar{
+	border-radius: 15px;
+	background-color: #ea213b !important;
+}
+.contact-btn{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.contact-btn a{
+	color: #ea213b;
+	border: 2px solid #ea213b;
+	border-radius: 20px;
+	padding: 5px 25px;
+	font-weight: bold;
+}
+.contact-btn a:hover{
+	text-decoration: none;
+	color: #fff;
+	background: #ea213b;
+}
+#portfolio{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(http://shubhamroy.iide.website/wp-content/uploads/2018/10/header-2-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 50px 0 50px 0;
+	color: #efefef;
+}
+#portfolio h1{
+	text-align: center;
+	color: #efefef;
+}
+#portfolio h1::after{
+	content: '';
+	display: block;
+	background: #efefef;
+	height: 2px;
+	width: 200px;
+	margin: 20px auto 5px;
+}
+.portfolio{
+	margin-top: 40px;
+}
+#contact-form{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(http://bdfjade.com/data/out/60/5668961-material-wallpapers.png);
+/*	background-image: url(http://www.madmkt.com/images/backgrounds/contact/contact-background.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	background-blend-mode: multiply;
+}
+
+.contact-form-container{
+	border-radius: 5px;
+	text-align: center;
+    background-color: transparent;
+    padding: 30px;
+    width: 500px;
+ 	padding: 70px 30px 30px 30px;
+ 	margin-top: 10px;
+ 	margin-bottom: 30px;
+}
+
+#contact-form > h2{
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 60px;
+	color: silver;
+	margin-left: 200px;
+}
+
+.form-control{
+	width: 500px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	font-size: 18px;
+	margin-bottom: 16px;
+	height: 40px;
+	color: #BD634F;
+}
+.text-area{
+	width: 500px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	font-size: 18px;
+	margin-bottom: 16px;
+	color: #BD634F;
+}
+
+.submit-btn{
+	border-color: transparent;
+	border-radius: 5px;
+	background-color: lightgrey;
+	color: #444;
+	margin-right: 500px; 
+	margin-top: 20px;
+	height: 40px;
+	font-size: 18px;
+	width: 500px;
+	cursor: pointer;
+}
+
+.submit-btn:hover{
+	opacity: 0.8;
+}
+.news-letter{
+	text-align: right;
+	padding-bottom: 50px;
+	margin-right: 50px;
+}
+.form{
+	width: 477px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	font-size: 18px;
+	margin: 20px 5px 16px 0;
+	height: 40px;
+	color: #BD634F;
+}
+.news-letter-desc{
+	margin-right: 10px;
+	color: white;
+	font-style: italic;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.news-letter-btn{
+	border-color: transparent;
+	border-radius: 3px;
+	width: 120px;
+	height: 30px;
+	margin-right: 360px;
+	font-size: 15px; 
+	margin-top: 10px;
+	cursor: pointer;
+}
+.news-letter-btn:hover{
+	opacity: 0.7;
+}
+.footer{
+	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(http://backgroundcheckall.com/wp-content/uploads/2017/12/webdesign-background-10.jpg);
+	/* background-color: #2d314d; */
+	color: #fff;
+}
+.lg{
+	padding-left: 50px !important;
+	padding-top: 20px !important;
+}
+.lg span{
+	color: #ea213b;
+}
+.fas, .far{
+	font-size: 20px;
+	margin-top: 20px;
+	opacity: 0.5;
+}
+.sos-med{
+	margin-left: -150px !important;
+	padding-top: 50px !important;
+}
+.list-unstyled span{
+	font-family: georgia;
+	font-size: 14px;
+	color: #efefef;
+}
+@media screen and (max-width: 768px){
+	.lg h5{
+		margin-right: 20px !important;
+	}
+	.footer-copyright{
+		margin-left: 60px !important;
+	}
+	.sos-med{
+		margin-left: 30px !important;
+		margin-top: -50px !important;
+		padding-bottom: 20px;
+	}
+	.list-unstyled{
+		text-align: left !important;
+		margin-left: 120px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.lg h5{
+		margin-right: 20px !important;
+	}
+	.footer-copyright{
+		margin-left: 0 !important;
+	}
+	.list-unstyled{
+		text-align: left !important;
+		margin-left: 70px;
+	}
+}
