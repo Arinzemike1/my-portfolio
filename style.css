@@ -206,166 +206,40 @@
 	left: calc(50% - 60px);
 	border: 7px solid #fff;
 }
-.skills-bar{
-	margin-bottom: 15px;
-}
 .skills-bar > p{
 	margin-bottom: 20px;
 	font-weight: 600;
 	font-size: 18px;
 }
 .progress{
-	border-radius: 15px;
+	border-radius: 15px !important;
+	margin-bottom: 15px;
+	margin-top: 3px;
 }
 .progress-bar{
 	border-radius: 15px;
 	background-color: #ea213b !important;
 }
-.contact-btn{
-	text-align: center;
-	margin-bottom: 20px;
+.contact-form{
+	background-color: #fafafa;
+	padding: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
-.contact-btn a{
-	color: #ea213b;
-	border: 2px solid #ea213b;
-	border-radius: 20px;
-	padding: 5px 25px;
-	font-weight: bold;
+.form-group{
+	width: 60%;
 }
-.contact-btn a:hover{
-	text-decoration: none;
-	color: #fff;
-	background: #ea213b;
-}
-#portfolio{
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(http://shubhamroy.iide.website/wp-content/uploads/2018/10/header-2-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	padding: 50px 0 50px 0;
-	color: #efefef;
-}
-#portfolio h1{
-	text-align: center;
-	color: #efefef;
-}
-#portfolio h1::after{
-	content: '';
-	display: block;
-	background: #efefef;
-	height: 2px;
-	width: 200px;
-	margin: 20px auto 5px;
-}
-.portfolio{
-	margin-top: 40px;
-}
-#contact-form{
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(http://bdfjade.com/data/out/60/5668961-material-wallpapers.png);
-/*	background-image: url(http://www.madmkt.com/images/backgrounds/contact/contact-background.jpg);*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #fff;
-	background-blend-mode: multiply;
-}
-
-.contact-form-container{
-	border-radius: 5px;
-	text-align: center;
-    background-color: transparent;
-    padding: 30px;
-    width: 500px;
- 	padding: 70px 30px 30px 30px;
- 	margin-top: 10px;
- 	margin-bottom: 30px;
-}
-
-#contact-form > h2{
-	text-align: left;
-	text-transform: uppercase;
-	padding-top: 60px;
-	color: silver;
-	margin-left: 200px;
-}
-
 .form-control{
-	width: 500px;
-	background: transparent;
-	border: none;
 	outline: none;
-	border-bottom: 1px solid grey;
-	font-size: 18px;
-	margin-bottom: 16px;
-	height: 40px;
-	color: #BD634F;
 }
-.text-area{
-	width: 500px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid grey;
-	font-size: 18px;
-	margin-bottom: 16px;
-	color: #BD634F;
-}
-
-.submit-btn{
-	border-color: transparent;
-	border-radius: 5px;
-	background-color: lightgrey;
-	color: #444;
-	margin-right: 500px; 
-	margin-top: 20px;
-	height: 40px;
-	font-size: 18px;
-	width: 500px;
-	cursor: pointer;
-}
-
-.submit-btn:hover{
-	opacity: 0.8;
-}
-.news-letter{
-	text-align: right;
-	padding-bottom: 50px;
-	margin-right: 50px;
-}
-.form{
-	width: 477px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid grey;
-	font-size: 18px;
-	margin: 20px 5px 16px 0;
-	height: 40px;
-	color: #BD634F;
-}
-.news-letter-desc{
-	margin-right: 10px;
-	color: white;
-	font-style: italic;
-	font-size: 16px;
-	text-transform: uppercase;
-}
-.news-letter-btn{
-	border-color: transparent;
-	border-radius: 3px;
-	width: 120px;
-	height: 30px;
-	margin-right: 360px;
-	font-size: 15px; 
-	margin-top: 10px;
-	cursor: pointer;
-}
-.news-letter-btn:hover{
-	opacity: 0.7;
+.contact-form button{
+	padding: 10px 30px !important;
 }
 .footer{
 	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(http://backgroundcheckall.com/wp-content/uploads/2017/12/webdesign-background-10.jpg);
 	/* background-color: #2d314d; */
 	color: #fff;
+	padding-top: 10px;
 }
 .lg{
 	padding-left: 50px !important;
@@ -404,6 +278,9 @@
 		text-align: left !important;
 		margin-left: 120px;
 	}
+	.form-group{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 375px){
@@ -417,4 +294,8 @@
 		text-align: left !important;
 		margin-left: 70px;
 	}
+	.form-group{
+		width: 100%;
+	}
+}
 }
